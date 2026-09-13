@@ -1,0 +1,891 @@
+[
+  {
+    "file": "Dockerfile",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".dockerignore",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "success"
+  },
+  {
+    "file": "README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "package-lock.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "LICENSE-MIT",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docker-compose.yaml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".gitignore",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/MANIFEST.in",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/requirements.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/pyproject.toml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/LICENSE.audiocraft",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/setup.cfg",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/LICENSE.moshi",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/moshi/__init__.py",
+    "dependencies": [
+      "utils",
+      "quantization",
+      "models",
+      ".",
+      "modules"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/moshi/offline.py",
+    "dependencies": [
+      "os",
+      "sentencepiece",
+      "_iterate_audio",
+      ".client_utils",
+      "loaders",
+      "load_audio",
+      "huggingface_hub",
+      "tarfile",
+      ".models",
+      "argparse",
+      "Optional",
+      "sphn",
+      ".models.lm",
+      "make_log",
+      "typing",
+      "Path",
+      "hf_hub_download",
+      "pathlib",
+      "torch",
+      "random",
+      "encode_from_sphn",
+      "numpy",
+      "json"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/moshi/client_utils.py",
+    "dependencies": [
+      "dataclasses",
+      "dataclass",
+      "sys"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/moshi/server.py",
+    "dependencies": [
+      "os",
+      "sentencepiece",
+      ".client_utils",
+      "loaders",
+      "huggingface_hub",
+      "tarfile",
+      "aiohttp",
+      "dataclasses",
+      ".models",
+      "argparse",
+      "asyncio",
+      "Literal",
+      "sphn",
+      "setup_logger",
+      "networking",
+      "make_log",
+      "typing",
+      "Path",
+      "hf_hub_download",
+      "pathlib",
+      ".utils.connection",
+      "torch",
+      ".utils.logging",
+      "gradio",
+      "random",
+      "create_ssl_context",
+      "web",
+      "dataclass",
+      "numpy",
+      "secrets",
+      "time",
+      "sys"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/moshi/quantization/vq.py",
+    "dependencies": [
+      "torch",
+      "ResidualVectorQuantization",
+      "math",
+      "BaseQuantizer",
+      ".base",
+      "typing",
+      ".core_vq"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/moshi/quantization/__init__.py",
+    "dependencies": [
+      ".vq",
+      "BaseQuantizer",
+      ".base",
+      "ResidualVectorQuantizer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/moshi/quantization/core_vq.py",
+    "dependencies": [
+      "rearrange",
+      "torch",
+      "nn",
+      "torch.nn.functional",
+      "einops",
+      "typing",
+      "distributed"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/moshi/quantization/base.py",
+    "dependencies": [
+      "torch",
+      "nn",
+      "dataclasses",
+      "typing",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/moshi/models/__init__.py",
+    "dependencies": [
+      ".compression",
+      "get_mimi",
+      ".lm",
+      "LMModel",
+      ".loaders"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/moshi/models/lm.py",
+    "dependencies": [
+      "..modules.streaming",
+      "..utils.sampling",
+      "pyloudnorm",
+      "collections.abc",
+      "dataclasses",
+      "tqdm",
+      "Optional",
+      "sphn",
+      "Callable",
+      "splitext",
+      "CUDAGraphed",
+      "typing",
+      "torch",
+      "functools",
+      "logging",
+      "os.path",
+      "StreamingStateDict",
+      "..modules.transformer",
+      "dataclass",
+      "sample_token",
+      "..utils.compile",
+      "numpy",
+      "tqdm.auto",
+      "sys",
+      "partial"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/moshi/models/loaders.py",
+    "dependencies": [
+      "pathlib",
+      "load_model",
+      "torch",
+      "..quantization",
+      ".compression",
+      "MimiModel",
+      "logging",
+      "SEANetEncoder",
+      "infer_auto_device_map",
+      "safetensors.torch",
+      "..modules",
+      "SplitResidualVectorQuantizer",
+      ".lm",
+      "LMModel",
+      "Path",
+      "accelerate"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/moshi/models/compression.py",
+    "dependencies": [
+      "..modules.streaming",
+      "ConvDownsample1d",
+      "torch",
+      "nn",
+      "abc",
+      "..quantization",
+      "..utils.compile",
+      "nullcontext",
+      "logging",
+      "contextlib",
+      "dataclasses",
+      "no_compile",
+      "..modules.resample",
+      "typing",
+      "dataclass",
+      "StreamingModule",
+      "abstractmethod"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/moshi/modules/__init__.py",
+    "dependencies": [
+      ".seanet",
+      ".conv",
+      "StreamingTransformer",
+      "SEANetEncoder",
+      ".transformer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/moshi/modules/resample.py",
+    "dependencies": [
+      "rearrange",
+      "torch",
+      "nn",
+      ".conv",
+      "einops",
+      "typing",
+      "StreamingConv1d"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/moshi/modules/streaming.py",
+    "dependencies": [
+      "contextmanager",
+      "dataclass",
+      "abc",
+      "torch",
+      "List",
+      "math",
+      "contextlib",
+      "dataclasses",
+      "safetensors.torch",
+      "typing",
+      "itertools",
+      "save_file",
+      "json"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/moshi/modules/seanet.py",
+    "dependencies": [
+      "..utils.compile",
+      ".conv",
+      "numpy",
+      ".streaming",
+      "torch.nn",
+      "StreamingContainer",
+      "torch_compile_lazy",
+      "typing",
+      "StreamingConv1d"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/moshi/modules/transformer.py",
+    "dependencies": [
+      ".rope",
+      "rearrange",
+      "torch",
+      "..utils.compile",
+      "einops",
+      "functional",
+      "RotaryEmbedding",
+      "torch.nn",
+      "contextlib",
+      "dataclasses",
+      ".streaming",
+      ".gating",
+      "typing",
+      "ExitStack",
+      "dataclass",
+      "StreamingModule",
+      "no_compile",
+      "make_gating"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/moshi/modules/conv.py",
+    "dependencies": [
+      "torch",
+      "nn",
+      "RawStreamingConv1d",
+      "torch.nn.utils",
+      "functional",
+      ".streaming",
+      "math",
+      "dataclasses",
+      "torch.nn",
+      "weight_norm",
+      "typing",
+      "warnings",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/moshi/modules/gating.py",
+    "dependencies": [
+      "..utils.compile",
+      "torch",
+      "nn",
+      "functional",
+      "torch.nn",
+      "torch_compile_lazy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/moshi/modules/rope.py",
+    "dependencies": [
+      "..utils.compile",
+      "torch",
+      "nn",
+      "math",
+      "torch_compile_lazy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/moshi/utils/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/moshi/utils/connection.py",
+    "dependencies": [
+      "pathlib",
+      "subprocess",
+      "setup_logger",
+      "shutil",
+      "socket",
+      "platform",
+      "which",
+      "ssl",
+      "Path",
+      ".logging",
+      "urllib.request"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/moshi/utils/compile.py",
+    "dependencies": [
+      "os",
+      "contextmanager",
+      "torch",
+      "inspect",
+      "functools",
+      "cuda",
+      "contextlib",
+      "wraps",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/moshi/utils/autocast.py",
+    "dependencies": [
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/moshi/utils/sampling.py",
+    "dependencies": [
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "moshi/moshi/utils/logging.py",
+    "dependencies": [
+      "..client_utils",
+      "random",
+      "make_log",
+      "logging",
+      "sys",
+      "typing",
+      "string",
+      "Optional"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "assets/test/prompt_service.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/Dockerfile",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/.env.local",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/vite.config.ts",
+    "dependencies": [
+      "names",
+      "topLevelAwait"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/.prettierignore",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/.nvmrc",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/package.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/LICENSE",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/package-lock.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/tailwind.config.js",
+    "dependencies": [
+      "daisyui"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/tsconfig.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "success"
+  },
+  {
+    "file": "client/.eslinrc.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/postcss.config.js",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/index.html",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/.prettierrc.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/public/assets/decoderWorker.min.js",
+    "dependencies": [
+      "fs",
+      "path"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/modules.d.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/index.css",
+    "dependencies": [
+      "url"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/app.tsx",
+    "dependencies": [
+      "./index.css",
+      "ReactDOM"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/audio-processor.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/env.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/decoder/decoderWorker.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/components/Button/Button.tsx",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/components/Input/Input.tsx",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/protocol/encoder.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/protocol/testMessages.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/protocol/types.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Conversation/Conversation.tsx",
+    "dependencies": [
+      "fixWebmDuration"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Conversation/getMimeType.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Conversation/SocketContext.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Conversation/MediaContext.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Conversation/components/Controls/Controls.tsx",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Conversation/components/ServerAudio/ServerAudio.tsx",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Conversation/components/ServerAudio/ServerAudioStats.tsx",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Conversation/components/AudioVisualizer/ClientVisualizer.tsx",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Conversation/components/AudioVisualizer/AudioVisualizer.tsx",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Conversation/components/AudioVisualizer/ServerVisualizer.tsx",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Conversation/components/UserAudio/UserAudio.tsx",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Conversation/components/UserAudio/UserAudioStats.tsx",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Conversation/components/ServerInfo/ServerInfo.tsx",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Conversation/components/ModelParams/ModelParams.tsx",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Conversation/components/TextDisplay/TextDisplayStats.tsx",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Conversation/components/TextDisplay/TextDisplay.tsx",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Conversation/hooks/useModelParams.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Conversation/hooks/useSocket.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Conversation/hooks/audioUtils.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Conversation/hooks/useServerAudio.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "success"
+  },
+  {
+    "file": "client/src/pages/Conversation/hooks/useServerText.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Conversation/hooks/useLocalStorage.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Conversation/hooks/useUserAudio.ts",
+    "dependencies": [
+      "Recorder",
+      "encoderPath"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Conversation/hooks/useSystemTheme.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Conversation/hooks/useServerInfo.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Queue/Queue.tsx",
+    "dependencies": [
+      "eruda",
+      "moshiProcessorUrl"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Queue/hooks/useUserEmail.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Queue/api/client.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Queue/api/validators.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Queue/api/errors/api_error.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "client/src/pages/Queue/api/errors/response_error.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  }
+]
